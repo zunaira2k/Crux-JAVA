@@ -11,6 +11,7 @@ public class ProblemNo1 {
         int star = 1;
         int row_val=1;
         while(row <= 2*n-1){
+        	
             int i = 1;
             while(i <= space ){
                 System.out.print("\t");
@@ -21,7 +22,7 @@ public class ProblemNo1 {
             while(j <= star){
                 
                 System.out.print(count+"\t");
-                count++;
+                
                 j++;
             }
             count=count-2;
